@@ -5,9 +5,9 @@ categories: leetcode-sort
 tags: sort
 ---
 ### Valid Anagram 
-> 	Given two strings s and t, write a function to determine if t is an anagram of s.
-	For example,
-	s = "anagram", t = "nagaram", return true.
-	s = "rat", t = "car", return false.
-	Note:
+> 	Given two strings s and t, write a function to determine if t is an anagram of s. <br>
+	For example,<br>
+	s = "anagram", t = "nagaram", return true.<br>
+	s = "rat", t = "car", return false.<br>
+	Note:<br>
 	You may assume the string contains only lowercase alphabets.
