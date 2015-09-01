@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 242 Valid Anagram
-categories: leetcode-sort
+categories: leetcode
 tags: sort
 ---
 ### Valid Anagram 
