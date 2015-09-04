@@ -6,7 +6,8 @@ tags: sort
 ---
 
 >Sort a linked list using insertion sort.
->/**
+{% highlight java linenos %}
+/** 
  * Definition for singly-linked list.
  * public class ListNode {
  *     int val;
@@ -15,9 +16,11 @@ tags: sort
  * }
  */
 public class Solution {
-    public ListNode insertionSortList(ListNode head) {     
+    public ListNode insertionSortList(ListNode head) {  
     }
 }
+{% endhighlight java %}
+
 
 ####1 
 插入排序的链表实现
