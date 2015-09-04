@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 179 lagest number
+title: 179 largest number
 categories: leetcode
 tags: sort
 ---
