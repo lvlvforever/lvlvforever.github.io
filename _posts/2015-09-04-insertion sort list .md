@@ -14,8 +14,7 @@ tags: sort
  * }
  */
 public class Solution {
-    public ListNode insertionSortList(ListNode head) {
-        
+    public ListNode insertionSortList(ListNode head) {     
     }
 }
 
