@@ -76,7 +76,7 @@ public static boolean isValidAnagram(String s,String t){
 			count[t.charAt(i) - 'a']--;
 		}
 		for(int i = 0; i < count.length; i++){
-			if(count[0] != 0) return false;
+			if(count[i] != 0) return false;
 		}
 		return true;
 	}
