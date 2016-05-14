@@ -58,19 +58,19 @@ by [CodingKing](https://leetcode.com/discuss/53802/c-solution-using-bit-manipula
 
 元素index 是0...n-1，元素则为从0..n中去掉一个数字，这时添加上n，则除了缺少的元素其他元素在index和数组中共计均出现了2次。
 {% highlight c++ linenos %}
-contentclass Solution {
-public:
-    int missingNumber(vector<int>& nums) {
-        int result = nums.size();
-        int i=0;
+class Solution {
+    public:
+    int missingNumber(vector<int>& nums){
+         int result = nums.size();
+         int i=0;
 
-        for(int num:nums){
+         for(int num:nums){
             result ^= num;
             result ^= i;
             i++;
-        }
+          }
 
         return result;
+        }
     }
-};
 {% endhighlight c++ %}
